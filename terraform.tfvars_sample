@@ -1,0 +1,5 @@
+project					= "project_id"
+region					= "some_region"
+account_creds_file_path = "path_to_gcloud_serviceaccount_creds_file"
+cluster_auth_username	= "some_user"
+cluster_auth_password	= "some_pass"
