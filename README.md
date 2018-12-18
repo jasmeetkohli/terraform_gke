@@ -1,4 +1,7 @@
-# terraform_gke
+# Terraform GKE
+
+![Alt text](https://github.com/jasmeetkohli/terraform_gke/blob/master/terraform-gcp%20(8).png)
+
 
 ### Structure:
 
