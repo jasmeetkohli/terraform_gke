@@ -1,6 +1,4 @@
 resource "kubernetes_replication_controller" "runner" {
-  depends_on = ["kubernetes_namespace.namespace"]
-
   metadata {
     name = "${var.app_name}"
 

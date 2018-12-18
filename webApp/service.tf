@@ -1,6 +1,4 @@
 resource "kubernetes_service" "service" {
-  depends_on = ["kubernetes_namespace.namespace"]
-
   metadata {
     name      = "${var.service_name}"
     namespace = "${var.namespace}"

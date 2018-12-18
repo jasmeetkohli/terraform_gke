@@ -1,5 +1,25 @@
 project					= "project_id"
+
 region					= "some_region"
+
 account_creds_file_path = "path_to_gcloud_serviceaccount_creds_file"
+
 cluster_auth_username	= "some_user"
+
 cluster_auth_password	= "some_pass"
+
+namespace = "some_namespace"
+
+config_map_name = "some_namespace"
+
+app_name = "some_app_name"
+
+port = some_port
+
+replicas = number_of_replicas #(eg:4)
+
+restart_policy = "some_policy" #eg: "Always"
+
+image_name = "some_docker_image_name"
+
+service_name = "some_service_name"
