@@ -15,8 +15,6 @@ module "cluster" {
   cluster_description        = "${var.cluster_description}"
   cluster_zone               = "${var.cluster_zone}"
   cluster_initial_node_count = "${var.cluster_initial_node_count}"
-  cluster_auth_username      = "${var.cluster_auth_username}"
-  cluster_auth_password      = "${var.cluster_auth_password}"
   cluster_machine_type       = "${var.cluster_machine_type}"
   cluster_image_type         = "${var.cluster_image_type}"
 }
